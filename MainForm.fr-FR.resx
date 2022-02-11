@@ -1,0 +1,254 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Nouveau_db_btn.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+N</value>
+  </data>
+  <data name="Nouveau_db_btn.Text" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="Ouvrir_db_btn.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="Ouvrir_db_btn.Text" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="Fermer_db_btn.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+W</value>
+  </data>
+  <data name="Fermer_db_btn.Text" xml:space="preserve">
+    <value>Fermer</value>
+  </data>
+  <data name="Enregistrer_db_btn.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="Enregistrer_db_btn.Text" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Verouillage_espace_travail_btn.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+L</value>
+  </data>
+  <data name="Verouillage_espace_travail_btn.Text" xml:space="preserve">
+    <value>Verouillage de l'espace de travail</value>
+  </data>
+  <data name="Quitter_app_btn.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Q</value>
+  </data>
+  <data name="Quitter_app_btn.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="Menu_Fichier_btn.Text" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="Ajouter_nouvelle_entrée_btn.Text" xml:space="preserve">
+    <value>Ajouter un utilisateur/mot de passe</value>
+  </data>
+  <data name="Copier_user_btn.Text" xml:space="preserve">
+    <value>Copier un nom d'utilisateur</value>
+  </data>
+  <data name="Copier_mdp_btn.Text" xml:space="preserve">
+    <value>Copier un mot de passe</value>
+  </data>
+  <data name="Menu_Entrées_btn.Text" xml:space="preserve">
+    <value>Entrées</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Barre_de_Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 24</value>
+  </data>
+  <data name="Barre_de_Menu.Text" xml:space="preserve">
+    <value>Barre de menu</value>
+  </data>
+  <data name="Menu_Contexte_Copier_nom_utilisateur_btn.Text" xml:space="preserve">
+    <value>Copier le nom d'utilisateur</value>
+  </data>
+  <data name="Menu_Contexte_Copier_mdp_btn.Text" xml:space="preserve">
+    <value>Copier le mot de passe</value>
+  </data>
+  <data name="Menu_Contexte_Ajouter_entrée_btn.Text" xml:space="preserve">
+    <value>Ajouter une entrée</value>
+  </data>
+  <data name="Menu_Contexte_Modifier_entrée_btn.Text" xml:space="preserve">
+    <value>Modifier l'entrée</value>
+  </data>
+  <data name="Menu_Contexte_Supprimer_entrée_btn.Text" xml:space="preserve">
+    <value>Supprimer l'entrée</value>
+  </data>
+  <data name="Menu_contexte_tableau.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 114</value>
+  </data>
+  <data name="Tableau_de_données.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Tableau_de_données.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 426</value>
+  </data>
+  <data name="Ver_esp_travail_menu_icone_btn.Text" xml:space="preserve">
+    <value>Verouillage de l'espace de travail</value>
+  </data>
+  <data name="Quitter_menu_icone_btn.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="Menu_contexte_Icone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 48</value>
+  </data>
+  <data name="Icone_notification.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAkAALEAAACxAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADt5+RV7Onnl+zp55fs6eeX7Onnl+zp
+        55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp
+        55fs6eeX7Onnl+3n5FXt6eas7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3n5Kzt6eag7+vo////
+        //////////////////////////////////////////////Hu6//x7uv/////////////////////////
+        ////////////////////////7+vo/+3p5qDt6eag7+zp///////9/Pz/8u/t//Lv7f/y7+3/8u/t//Lv
+        7f/7+/r///////Lv7P/y7+z///////v7+v/y7+3/8u/t//Lv7f/y7+3/8u/t//39/P//////7+zp/+3p
+        5qDt6eag7+zp////////////1fP//+T3////////4/P8/+Hy/P/r9/3///////Lv7P/y7+z///////7/
+        ///O8f//7Pn////////b8Pz/4PH8//T6/v//////7+zp/+3p5qDt6eag7+zp///////j9///gNv//2bS
+        /v+O1vr/Z8b2/2XE9v+i2vj///////Lv7P/y7+z//////83x//+L3v//aNL+/47W+v9dwvb/YsT2/8Lm
+        +v//////7+zp/+3p5qDt6eag7+zp///////2/P//hNz//5bh///m9v7/4fP9/+Hz/v/3/P////////Lv
+        7P/y7+z//////+v5//9+2v//peX+/+b2/v/f8/3/4vP9//z9////////7+zp/+3p5qDt6eag7+vo////
+        //////////////////////////////////////////////Hu6//x7uv/////////////////////////
+        ////////////////////////7+vo/+3p5qDt6eag7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5qDt6eag7urn//b08//39fP/9/Xz//f18//39fP/9/Xz//f18//39fP/9vXz/+/r6P/v6+j/9vXz//f1
+        8//39fP/9/Xz//f18//39fP/9/Xz//f18//29PP/7urn/+3p5qDt6eag7+zp///////+/v7/+Pb1//j2
+        9f/49vX/+Pb1//j29f/9/f3///////Lv7P/y7+z///////39/P/49vX/+Pb1//j29f/49vX/+Pb1//7+
+        /v//////7+zp/+3p5qDt6eag7+zp///////+/v7/+Pb1//j29f/49vX/+Pb1//j29f/9/f3///////Lv
+        7P/y7+z///////39/f/49vX/+Pb1//j29f/49vX/+Pb1//7+/v//////7+zp/+3p5qDt6eag7+zp////
+        ///2/P//hNz//5bh///m9v7/otn4/53Y+P/D5vr///////Lv7P/y7+z//////+v5//9+2v//peX+/+b2
+        /v+P0vb/mtb4/9rv/P//////7+zp/+3p5qDt6eag7+zp///////i9///gNv//2bS/v+O1vr/ec34/3fM
+        +P++5vv///////Lv7P/y7+z//////83x//+M3v//aNL+/47W+v9zy/j/dsz4/9bv/P//////7+zp/+3p
+        5qDt6eag7+zp////////////1fP//+T3//////////////////////////////Lv7P/y7+z///////7/
+        ///P8f//6/n/////////////////////////////7+zp/+3p5qDt6eag7urn//Xz8f/18/L/9fPy//Xz
+        8v/18/L/9fPy//Xz8v/18/L/9fPy/+/r6P/v6+j/9fPy//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz
+        8v/18/H/7urn/+3p5qDt6eag7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5qDt6eag7+vo////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////neyf/snV//7+Tb/+3p5qDt6eag7urn//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz
+        8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Pn3P/xy63/7uji/+3p
+        5qDt6eag7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5qDZ0cyc4drV/+Ha1f/f2dT/2tLN/9nR
+        zP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nR
+        zP/Z0cz/2dHM/9nRzJzbzs4q2tTOfNrUznza1M582NLMd9jSzHfY0sx32NLMd9jSzHfY0sx32NLMd9jS
+        zHfY0sx32NLMd9jSzHfY0sx32NLMd9jSzHfY0sx32NLMd9jSzHfY0sx32NLMd9vOzioAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wA=
+</value>
+  </data>
+  <data name="Icone_notification.Text" xml:space="preserve">
+    <value>Mon Gestionnaire de mot de passe</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Icone_notification.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAGBgAAAEAIACICQAAFgAAACgAAAAYAAAAMAAAAAEAIAAAAAAAAAkAALEAAACxAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADt5+RV7Onnl+zp55fs6eeX7Onnl+zp
+        55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp55fs6eeX7Onnl+zp
+        55fs6eeX7Onnl+3n5FXt6eas7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3n5Kzt6eag7+vo////
+        //////////////////////////////////////////////Hu6//x7uv/////////////////////////
+        ////////////////////////7+vo/+3p5qDt6eag7+zp///////9/Pz/8u/t//Lv7f/y7+3/8u/t//Lv
+        7f/7+/r///////Lv7P/y7+z///////v7+v/y7+3/8u/t//Lv7f/y7+3/8u/t//39/P//////7+zp/+3p
+        5qDt6eag7+zp////////////1fP//+T3////////4/P8/+Hy/P/r9/3///////Lv7P/y7+z///////7/
+        ///O8f//7Pn////////b8Pz/4PH8//T6/v//////7+zp/+3p5qDt6eag7+zp///////j9///gNv//2bS
+        /v+O1vr/Z8b2/2XE9v+i2vj///////Lv7P/y7+z//////83x//+L3v//aNL+/47W+v9dwvb/YsT2/8Lm
+        +v//////7+zp/+3p5qDt6eag7+zp///////2/P//hNz//5bh///m9v7/4fP9/+Hz/v/3/P////////Lv
+        7P/y7+z//////+v5//9+2v//peX+/+b2/v/f8/3/4vP9//z9////////7+zp/+3p5qDt6eag7+vo////
+        //////////////////////////////////////////////Hu6//x7uv/////////////////////////
+        ////////////////////////7+vo/+3p5qDt6eag7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5qDt6eag7urn//b08//39fP/9/Xz//f18//39fP/9/Xz//f18//39fP/9vXz/+/r6P/v6+j/9vXz//f1
+        8//39fP/9/Xz//f18//39fP/9/Xz//f18//29PP/7urn/+3p5qDt6eag7+zp///////+/v7/+Pb1//j2
+        9f/49vX/+Pb1//j29f/9/f3///////Lv7P/y7+z///////39/P/49vX/+Pb1//j29f/49vX/+Pb1//7+
+        /v//////7+zp/+3p5qDt6eag7+zp///////+/v7/+Pb1//j29f/49vX/+Pb1//j29f/9/f3///////Lv
+        7P/y7+z///////39/f/49vX/+Pb1//j29f/49vX/+Pb1//7+/v//////7+zp/+3p5qDt6eag7+zp////
+        ///2/P//hNz//5bh///m9v7/otn4/53Y+P/D5vr///////Lv7P/y7+z//////+v5//9+2v//peX+/+b2
+        /v+P0vb/mtb4/9rv/P//////7+zp/+3p5qDt6eag7+zp///////i9///gNv//2bS/v+O1vr/ec34/3fM
+        +P++5vv///////Lv7P/y7+z//////83x//+M3v//aNL+/47W+v9zy/j/dsz4/9bv/P//////7+zp/+3p
+        5qDt6eag7+zp////////////1fP//+T3//////////////////////////////Lv7P/y7+z///////7/
+        ///P8f//6/n/////////////////////////////7+zp/+3p5qDt6eag7urn//Xz8f/18/L/9fPy//Xz
+        8v/18/L/9fPy//Xz8v/18/L/9fPy/+/r6P/v6+j/9fPy//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz
+        8v/18/H/7urn/+3p5qDt6eag7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5qDt6eag7+vo////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////neyf/snV//7+Tb/+3p5qDt6eag7urn//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz
+        8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Xz8v/18/L/9fPy//Pn3P/xy63/7uji/+3p
+        5qDt6eag7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p
+        5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5v/t6eb/7enm/+3p5qDZ0cyc4drV/+Ha1f/f2dT/2tLN/9nR
+        zP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nRzP/Z0cz/2dHM/9nR
+        zP/Z0cz/2dHM/9nRzJzbzs4q2tTOfNrUznza1M582NLMd9jSzHfY0sx32NLMd9jSzHfY0sx32NLMd9jS
+        zHfY0sx32NLMd9jSzHfY0sx32NLMd9jSzHfY0sx32NLMd9jSzHfY0sx32NLMd9vOzioAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+</root>
